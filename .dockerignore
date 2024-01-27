@@ -1,0 +1,5 @@
+docker_base
+env
+pgadmin_conf
+logs
+logstash
