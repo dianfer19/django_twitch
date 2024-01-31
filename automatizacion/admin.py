@@ -13,6 +13,6 @@ class PruebaAdmin(admin.ModelAdmin):
 
 @admin.register(Mail)
 class PruebaAdmin(admin.ModelAdmin):
-    list_display = ['de', 'asunto', 'cuerpo']
-    search_fields = ['de', 'asunto', 'cuerpo']
+    list_display = ['de', 'asunto', ]
+    search_fields = ['de', 'asunto',]
     list_filter = ['asunto']

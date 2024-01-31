@@ -1,4 +1,6 @@
+from ckeditor.fields import RichTextField
 from django.db import models
+
 
 # Create your models here.
 class Prueba(models.Model):
@@ -10,4 +12,5 @@ class Prueba(models.Model):
 class Mail(models.Model):
     de = models.CharField(max_length=100)
     asunto = models.CharField(max_length=200)
-    cuerpo =models.CharField(max_length=1000)
+    cuerpo = RichTextField()
+    leido = models.BooleanField(default=False)

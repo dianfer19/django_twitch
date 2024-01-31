@@ -1,3 +1,4 @@
 Django
 django-apscheduler
 imapclient
+django-ckeditor
